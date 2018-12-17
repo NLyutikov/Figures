@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CircleActivity"
+        tools:ignore="MissingConstraints">
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/r_hint"
+              android:gravity="end"
+              android:id="@+id/text_r"
+              android:layout_marginVertical="15dp"
+              app:layout_constraintTop_toTopOf="parent"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_ps1"
+            android:text="@string/ps_button"
+            app:layout_constraintTop_toBottomOf="@+id/text_r"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_back1"
+            android:text="@string/back_but"
+            app:layout_constraintBottom_toTopOf="@+id/text_p1"
+    />
+    <TextView
+            android:text="@string/p_text"
+            android:textSize="24sp"
+            android:layout_marginVertical="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_p1"
+            app:layout_constraintBottom_toTopOf="@+id/text_s1"
+    />
+    <TextView
+            android:text="@string/s_text"
+            android:textSize="24sp"
+            android:layout_marginVertical="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_s1"
+            app:layout_constraintBottom_toBottomOf="parent"
+    />
+
+</android.support.constraint.ConstraintLayout>

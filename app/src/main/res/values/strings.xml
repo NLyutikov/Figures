@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Figures</string>
+    <string name="CirAct_name">Circle</string>
+    <string name="RecAct_name">Rectangle</string>
+    <string name="TriAct_name">Triangle</string>
+    <string name="ps_button">Узнать \'\'P\'\' и \'\'S\'\' фигуры</string>
+    <string name="p_text">Периметр:</string>
+    <string name="s_text">Площадь:</string>
+    <string name="w_hint">Введите ширину фигуры</string>
+    <string name="h_hint">Введите высоту фигуры</string>
+    <string name="r_hint">Введите радиус фигуры</string>
+    <string name="a_hint">Введите сторону \'\'A\'\' фигуры</string>
+    <string name="b_hint">Введите сторону \'\'B\'\' фигуры</string>
+    <string name="c_hint">Введите сторону \'\'C\'\' фигуры</string>
+    <string name="back_but">Вернуться на стратовую страницу</string>
+</resources>
